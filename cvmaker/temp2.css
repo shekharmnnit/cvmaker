@@ -1,0 +1,58 @@
+body{
+	background-image: url("cvback2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+.rows
+{
+	position: relative;
+	margin-bottom: 100px;
+	margin-top: 100px;
+	height: 1000px;
+
+}
+.profilepic
+{
+	height: 200px;
+	background-color: #193367;
+	padding: 20px;
+}
+.color{
+	background-color: 	#F5DEB3;
+	height: 35px;
+}
+.profileimg{
+	height:150px;
+	width:150px;
+	
+}
+.h{height:150px;
+	width:150px;
+	border: solid #F5DEB3;
+
+}
+.name{
+
+
+padding: 20px;
+	color: #F5DEB3;
+}
+.col1{
+	background-color: #e6e6e6;
+height: 800px;
+}
+.col2
+{
+	background-color: #e6e6e6;
+	height: 800px;
+	border-left: solid black;
+}
+hr{
+	background-color: black;
+	height: 1px;
+	color: #F5DEB3;
+}
+.external{
+	border: solid black;
+}

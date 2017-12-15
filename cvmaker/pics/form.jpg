@@ -1,0 +1,41 @@
+<html>
+<head><title>ELLIGIBILIY CRITERIA FORM</title></head>
+<body background="b.jpg">
+<style>
+h1{color:red; border:1px black;}
+p{color:blue;}
+form{color:black;}
+a:visited
+{
+color:pink;}
+a:active
+{
+color:yellow;
+}
+</style>
+
+<h1>All fields are mandatory</h1>
+<p>
+<form action="action_page.php">
+First Name:<br>
+<input type="text" name="first name"><br>
+Last Name:<br>
+<input type="text" name="last name"><br>
+Gender:<br>
+<input type="radio" name="gender" value="male">male<br>
+<input type="radio" name="gender" value="female">female<br>
+<input type="radio" name="gender" value="other">other<br>
+Are you a fresher or dropper:<br>
+<input type="radio" name="detail" value="yes">yes<br>
+<input type="radio" name="detail" value="no">no<br>
+<select name="board"><br>
+<option value="CICSE">CICSE<br>
+<option value="CBSE">CBSE<br>
+<option value="STATE BOARD">STATE BOARD<br><br>
+<br><input type="radio"><text area name="message">I hereby declare that the information given by me is best known according to my knowledge. I allow the institution to grant any action against</text area><br>
+<input type="submit">
+</form>
+<a href="http://www.google.com">Direct to google</a>
+</p1>
+</body>
+</html>

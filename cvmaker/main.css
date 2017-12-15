@@ -1,0 +1,84 @@
+body{
+  background-color: #00CED1;
+}
+.pic{
+  float:left;
+}
+.first{
+  margin-left:100px;
+  color:white;  
+}
+/*style="font:normal normal 30px cursive"*/
+.cre{
+  font:normal normal 30px cursive;
+}
+
+
+
+.abt{
+font:bold normal 30px cursive;
+margin-left:80%;
+}
+
+#cvmaker{
+  font:normal normal 30px tahoma;
+  padding-left:60px;
+}
+.second{
+  margin-left:100px;
+  margin-right:40%;
+  color:white;
+  background-color:red;
+  width:100%;
+  height:540px; 
+}
+
+.one{
+  float:left;
+  background-color:white;
+  width:25%;
+  height:100%;
+  margin-left:6%;
+}
+.para{
+  margin:100px;
+    background-color:#008B8B;
+}
+
+#footer
+{
+  position: relative;
+  background-color:   black;
+  margin-left: 0px;
+  width: 100%;
+  height: 400px;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+@media only screen and (max-width: 500px) {
+
+
+.first{
+  margin-left:0px;
+  color:white;
+  font-size: 100%;
+  
+}
+.abt{
+font:bold normal 20px cursive;
+margin-left:0px;
+}
+
+.para{
+  margin:0px;
+
+}
+.tot{
+  font:bold normal 80px cursive;
+}
+.cre{
+  font:normal normal 10px cursive;
+}
+
+}

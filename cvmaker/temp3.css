@@ -1,0 +1,67 @@
+body{
+	background-image: url("cvback2.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+.top{
+	background-color: #ffb3b3;
+	height: 35px;
+}
+.rows{
+	/*position: relative;*/
+	margin-bottom: 100px;
+	margin-top: 100px;
+	
+	
+}
+.main{background-color: white;
+	height: 1100px;
+	margin-bottom: 100px;
+	padding: 20px
+
+}
+.name{
+	height: 130px;
+	background-color: white;
+	padding: 20px;
+}
+.contact
+{
+	background-color: white;
+	
+}
+hr{
+	background-color: black;
+	height: 1px;
+	color: #F5DEB3;
+}
+.profile
+{
+	height: 40px;
+	padding: 0px;
+	font-size: 30px;
+	border: solid #ffb3b3;
+}
+.profileimg{
+	height:150px;
+	width:150px;
+	
+}
+.profile1
+{
+	height: 200px;
+	padding: 10px;
+}
+.education
+{
+	padding: 10px;
+}
+.professional
+{
+	padding: 10px;
+}
+.interests
+{
+	padding:10px;
+}

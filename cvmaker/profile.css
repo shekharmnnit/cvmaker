@@ -1,0 +1,197 @@
+.navbar
+{
+position: fixed;
+	
+}
+
+.topbar
+{
+	position: relative;
+	color: white;
+	background-image: url("profileback.jpg");
+	background-repeat: no-repeat;
+	
+	background-size: 100%;
+	/*margin-left: 0px;*/
+	/*width: 100%;*/
+	/*height: 750px;*/
+	/*padding-top: 25%;*/
+	font-size: 50px;
+
+	}
+
+
+.bdy{
+	font-size: 10%;
+	height: 20%;
+}
+
+.h11{
+		padding-top: 22%;
+		font-size: 100%;
+		color: white;
+	}
+
+
+    .fullstop{
+    	font-size: 1px;
+	margin-top: 25%; 
+	/*color: red;*/
+}
+
+
+.profilepic
+{
+	
+	width: 100%;
+}
+#footer
+{
+	
+	background-color: 	black;
+	margin-left: 0px;
+	width: 100%;
+	height: auto;
+	padding-left: 5%;
+	padding-top: 5%;
+}
+.content
+{
+	height: 3500px;
+	
+}
+.col2
+{
+	position: relative;
+	margin-top: 80px;
+	margin-bottom: 10px;
+	padding: 100px;
+}
+.col1{
+	background-color: black;
+	height: 100%;
+	padding: 0px;
+}
+.sidebar
+{
+	
+	color: white;
+}
+.sidebutton
+{
+	width: 100%;
+}
+.post1
+{
+	border: solid black;
+	padding: 20px;
+    background-color: #e6e6e6;
+    
+}
+.resumeeg
+{
+	width:90%;
+	height: 10%;
+	border: solid black;
+	cursor: pointer;
+}
+.post2
+{
+	border: solid black;
+	padding: 20px;
+	background-color: #e6e6e6;
+	/*height: 820px;*/
+}
+
+
+/*first mobile*/
+@media only screen and (max-width: 950px) {
+
+    
+	.content
+	{
+		height: 3850px;
+		/*background-color: yellow;*/
+	}
+	#footer{
+		/*background-color: green;*/
+	}
+
+
+}
+
+
+
+
+/*second mobile*/
+@media only screen and (max-width: 767px) {
+
+	.h11{
+		font-size: 50%;
+		color: white;
+	}
+	.fullstop{
+    	font-size: 0px;
+	margin-top: 20%; 
+}
+h2{
+	font-size: 100%;
+}
+
+	.col1{
+		width: 100%;
+	background-color: black;
+	height: 850px;
+	padding: 0px;
+}
+		.col2
+	{
+	padding: 0px;
+	height: 8000px;
+	}
+
+    
+	.content
+	{
+		height: 8200px;
+		/*background-color: pink;*/
+	}
+	#footer{
+		/*background-color: green;*/
+	}
+
+
+}
+/*third*/
+@media only screen and (max-width: 600px) {
+
+		.content
+	{
+		height: 6800px;
+		/*background-color: blue;*/
+	}
+	.col1{
+	height: 730px;
+}
+	#footer{
+		/*background-color: green;*/
+	}
+}
+/*forth mobile*/
+@media only screen and (max-width: 450px) {
+
+ 		.col1{
+	height: 1000px;
+	}
+
+	.content
+	{
+		height: 6200px;
+		/*background-100lor: yellow;*/
+	}
+	#footer{
+		/*background-color: ;*/
+	}
+
+
+}
